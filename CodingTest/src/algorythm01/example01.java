@@ -8,7 +8,9 @@ import java.util.Scanner;
 public class example01 {
 	public int solution (String str, char t) {
 		int answer = 0;
-	
+		
+		str = str.toUpperCase(); //str 이 대문자로 변환 
+		t = Character.toUpperCase(t); // 문자니까 character 클래스 메소드를 사용한다.
 		return answer;
 
 	}
