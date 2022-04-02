@@ -12,6 +12,7 @@ public class example01 {
 		str = str.toUpperCase();
 		t = Character.toUpperCase(t);
 		
+		//str 의 갯수 반복문 
 		for (int i = 0; i < str.length(); i++) {
 			if (str.charAt(i)==t) answer++; {
 				
