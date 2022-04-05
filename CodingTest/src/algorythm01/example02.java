@@ -12,6 +12,7 @@ public class example02 {
 		} 
 		return answer;
 	}
+	//대문자 65~90 , 소문자 97~122  대 - 소 = 32 소문자에서 32를 빼면 대문자가 된다 
 	
 	public static void main(String[] args) {
 
