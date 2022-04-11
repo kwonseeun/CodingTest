@@ -15,7 +15,7 @@ public class example03 {
 				answer = x;// 최대값이발견될 때 마다 answer 에 넣어준다 
 			}
 		}
-		return answer;
+		return answer;  
 	}
 	
 	
