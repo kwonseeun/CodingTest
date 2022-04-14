@@ -19,7 +19,7 @@ public class example04 {
 		for (int i = 0; i < str.length; i++) {
 			str[i] = sc.next();
 		}
-		for (String x : ex.solution(n, str)) {
+		for (String x : ex.solution(n, str)) { // foreach 문 사용 
 			System.out.println(x);
 		}
 		
