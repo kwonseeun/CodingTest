@@ -12,7 +12,7 @@ public class example04 {
 	}
 	
 	public static void main(String[] args) {
-		example04 ex = new example04();
+		example04 ex = new example04();  
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		String[] str = new String[n];
