@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class example05 {
 	public String solution(String str) {
 		String answer;
+		char[] s = str.toCharArray();
+		
 		
 		return "";
 	}
