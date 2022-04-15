@@ -11,14 +11,14 @@ public class example05 {
 			if(Character.isAlphabetic(s[lt])) lt++; //알파벳이 아닌지 아닌지 판별 , 아닐때 증가 
 			else if(!Character.isAlphabetic(s[rt])) rt--; // rt가 알파벳이 아닐때 감소 
 			else {
-				char tmp =s[lt];
-				s[lt]=s[rt];
+				char tmp =s[lt]; 
+				s[lt]=s[rt]; 
 				s[rt]=tmp;
-				lt++;
+				lt++; 
 				rt--;
 			}
 		}
-		answer= String.valueOf(s);
+		answer= String.valueOf(s); // answer배열 string으로 전환 
 		
 		return answer;
 		
