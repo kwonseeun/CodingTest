@@ -6,10 +6,10 @@ public class example05 {
 	public String solution(String str) {
 		String answer;
 		char[] s = str.toCharArray();
-		int lt = 0, rt = str.length()-1; 
-		while(lt < rt ) {
-			if(Character.isAlphabetic(s[lt])) lt++;
-			else if(!Character.isAlphabetic(s[rt])) rt--;
+		int lt = 0, rt = str.length()-1; // s의 마지막 문자를 rt가 맨끝 문자를 가르킨다 
+		while(lt < rt ) { 
+			if(Character.isAlphabetic(s[lt])) lt++; //알파벳이 아닌지 아닌지 판별 , 아닐때 증가 
+			else if(!Character.isAlphabetic(s[rt])) rt--; // rt가 알파벳이 아닐때 감소 
 			else {
 				char tmp =s[lt];
 				s[lt]=s[rt];
