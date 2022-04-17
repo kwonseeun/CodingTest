@@ -1,10 +1,21 @@
 package algorythm01;
 
+import java.util.Scanner;
+
 public class example06 {
-
+	public String solution(String str) {
+		String answer="";
+		for (int i = 0; i < str.length(); i++) {
+			System.out.println(str[i] + "" + "" + str.indexOf(str.charAt(i)));
+			
+			return answer;
+		}
+	}
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		example06 ex = new example06();
+		Scanner sc = new Scanner(System.in);
+		String str = sc.next();
+		System.out.println(ex.solution(str));
 	}
 
 }
