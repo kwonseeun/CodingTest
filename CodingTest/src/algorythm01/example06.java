@@ -6,10 +6,10 @@ public class example06 {
 	public String solution(String str) {
 		String answer="";
 		for (int i = 0; i < str.length(); i++) {
-			System.out.println(str[i] + "" + "" + str.indexOf(str.charAt(i)));
+			System.out.println(str.charAt(i) + "" + i + "" +str.indexOf(str.charAt(i)));
 			
-			return answer;
 		}
+		return answer;
 	}
 	public static void main(String[] args) {
 		example06 ex = new example06();
