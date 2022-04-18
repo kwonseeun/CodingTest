@@ -9,7 +9,7 @@ public class example06 {
 			 System.out.println(str.charAt(i) + "" + i + "" +str.indexOf(str.charAt(i)));
 			if (str.indexOf(str.charAt(i)) == i) answer += str.charAt(i);
 		}
-		return answer;
+		return answer;  
 	}
 	public static void main(String[] args) {
 		example06 ex = new example06();
