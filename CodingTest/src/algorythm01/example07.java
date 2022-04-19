@@ -1,17 +1,19 @@
 package algorythm01;
 
+import java.util.Scanner;
+
 public class example07 {
 	public String solution(String str) {
 		String answer = "YES";
-		int len=str.length();
-		for (int i = 0; i < len/2; i++) 
-			if (str.charAt(i) != str.charAt(len-i-1)) return "NO";
-			
-		}
+		String tmp = new StringBuilder(str).reverse().toString();
+		return answer;
+	}
 	
 	public static void main(String[] args) {
 		example07 ex = new example07();
-		
+		Scanner sc = new Scanner(System.in);
+		String str = sc.next();
+		System.out.println(ex.solution(str));
 	}
 
 }
