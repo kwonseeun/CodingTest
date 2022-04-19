@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 public class example07 {
 	public String solution(String str) {
-		String answer = "YES";
+		String answer = "NO";
 		String tmp = new StringBuilder(str).reverse().toString();
+		if(str.equals(tmp)) answer = "YES";
 		return answer;
 	}
 	
