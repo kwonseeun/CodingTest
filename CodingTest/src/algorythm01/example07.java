@@ -15,6 +15,5 @@ public class example07 {
 		Scanner sc = new Scanner(System.in);
 		String str = sc.next();
 		System.out.println(ex.solution(str));
-	}
-
+	} 
 }
