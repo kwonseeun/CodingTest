@@ -1,6 +1,5 @@
 package algorythm01;
 
-import java.util.Iterator;
 import java.util.Scanner;
 
 /**1. 문자 찾기 
@@ -15,7 +14,7 @@ public class example01 {
 		System.out.println(str + "" + t );
 		
 		for (int i = 0; i < str.length(); i++) { // str의 길이만큼 반복문 실행 , 하지만 0번째부터 시작이니까 안된 
-			if (str.charAt(i) == t)  answer ++; // 문자를 한개 한개 index 탐색 접근한다 
+			if (str.charAt(i) == t)  answer ++; // 문자를 한개 한개 index 탐색 접근한다  
 		}
 		return answer; // answer리턴 하면서 갯수출력 
 
