@@ -7,10 +7,14 @@ import java.util.Scanner;
  * 추출하여 만들어지는 자연수는 100,000,000을 넘지 않는다. */
 public class example09 {
 	public int solution(String s) {
-		int answer = 0;
-		for (char x: s.toCharArray()) {
-			if (x >= 48 && x<=57) 
-				answer=answer*10+(x-48); 
+		int answer = 0; // answer를 계속 갱신한다. 
+		for (char x: s.toCharArray()) { //x는 알파벳이 됐다가 숫자가 됐다가 한다 
+			if (x >= 48 && x<=57) // 48부터 57사이(아스키번호) 문자 0이 48, 문자 9가 57
+				answer=answer*10+(x-48);  // 0*10+0 = 0 이므로 첫번째는 무시, 그다음은 1 
+										  // 1 = 0 * 10 + 1 = 1
+										  // 2 = 1 * 10 + 2 = 12
+									      //    12 * 10 + 0 = 120
+			  							  //    120* 10 + 5	= 1205
 		}
 		
 		return answer;
