@@ -18,7 +18,7 @@ public class example08 {
 		
 		return answer;
 	}
-	
+
 	public static void main(String[] args) {
 		example08 e = new example08();
 		Scanner sc = new Scanner(System.in);
