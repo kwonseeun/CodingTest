@@ -1,5 +1,7 @@
 package algorythm01;
 
+import java.util.Scanner;
+
 public class example09 {
 	public int solution(String s) {
 		int answer = 0;
@@ -13,8 +15,10 @@ public class example09 {
 	
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		example09 e = new example09();
+		Scanner sc = new Scanner(System.in);
+		String str = sc.next();
+		System.out.println(e.solution(str));
 	}
 
 }
