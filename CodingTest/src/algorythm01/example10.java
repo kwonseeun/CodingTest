@@ -16,8 +16,10 @@ public class example10 {
 			if (s.charAt(i) == t) {
 				p=0;
 				answer[i] = p;
-			}
-			
+			} else {
+				p++;
+				answer[i] = p;
+			} // 왼쪽으로부터 떨어진 거리가 나온다. 
 		}
 		
 		return answer;
