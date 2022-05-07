@@ -6,12 +6,19 @@ import java.util.Scanner;
  * 출력하는 프로그램을 작성하세요. 
  * 
  * 첫 번째 줄에 문자열 s와 문자t가 주어진다. 문자열과 문자는 소문자로만 주어진다.
- * 문자열의 길이는 100을 넘지 않는다. */
+ * 문자열의 길이는 100을 넘지 않는다. 
+ * */
 public class example10 {
-	public int solution() {
-		int answer = 0;
-		
-		
+	public int[] solution(String s, char t) {
+		int[] answer = new int[s.length()];
+		int p = 1000;
+		for (int i = 0; i < s.length(); i++) {
+			if (s.charAt(i) == t) {
+				p=0;
+				answer[i] = p;
+			}
+			
+		}
 		
 		return answer;
 		
