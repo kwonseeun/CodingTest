@@ -5,7 +5,17 @@ package algorythm01;
  * 단 반복횟수가 1인경우 생략한다. */
 
 public class example11 {
-	
+	public String solution(String s) {
+		s=s+" ";
+		int cnt=1;
+		for (int i = 0; i < s.length()-1;i ++) {
+			if(s.charAt(i)==s.charAt(i+1)) cnt++;
+			
+		}
+			
+			return asnwer;
+		
+	}
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
