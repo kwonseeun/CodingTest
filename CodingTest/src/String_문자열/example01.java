@@ -1,4 +1,4 @@
-package algorythm01;
+package String_문자열;
 
 import java.util.Scanner;
 
