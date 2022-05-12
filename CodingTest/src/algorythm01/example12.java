@@ -19,8 +19,11 @@ public class example12 {
 		String answer ="";
 		
 		for (int i = 0; i < n; i++) { //i = 0 일때 7개를 substring 으로 끊어낸다 
-			String tmp = s.substring(0, 7).replace('#', '1').replace('*', '0'); 
-			System.out.println(tmp);
+			String tmp = s.substring(0, 7).replace('#', '1').replace('*', '0');
+			int num = Integer.parseInt(tmp, 2);
+			
+			answer += (char)num; // num 을 문자열로 cast 해서 넣어준다 
+			System.out.println(tmp+" "+num);
 			s = s.substring(7); 
 		}
 		
