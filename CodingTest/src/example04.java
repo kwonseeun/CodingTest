@@ -19,6 +19,12 @@ public class example04 {
 		
 		// 2번째 이재영이라는 이름은 몇번 반복되나 
 		int leejaeyoung = 0;
+		
+		for (int i = 0; i < nameList.length; i++) {
+			if(nameList[i].equals("이재영"))
+				leejaeyoung++;
+		}
+		System.out.println("이재영이라는 이름은 몇버 반복되나요 ? " + leejaeyoung);
 	}
 	
 }
