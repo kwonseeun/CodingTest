@@ -1,3 +1,4 @@
+package codingDojang;
 import java.util.Scanner;
 
 public class example03 {

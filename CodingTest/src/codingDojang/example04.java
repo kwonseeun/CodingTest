@@ -1,4 +1,6 @@
+package codingDojang;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class example04 {
 
@@ -41,9 +43,15 @@ public class example04 {
 			String newArray[] = arrayList.toArray(new String[arrayList.size()]);
 			
 			System.out.println("중복을 제거한 이름");
-			for (int i = 0; i < newArray.length; i++) {
+			for (int i = 0; i < newArray.length; i++) 
 				System.out.println(newArray[i] + ((newArray.length == i +1)?"\n":", "));
-		}
+				
+			// 4번 중복을 제거한 이름을 오름차순 하시오 
+				Arrays.sort(newArray);
+				System.out.println("중복을 제거한 이름을 오름차순 하시오: ");
+				for (int i = 0; i < newArray.length; i++) 
+					System.out.println(newArray[i] + ((newArray.length == i + 1)?"\n":"," ));
+		
 	}	
 }
  
