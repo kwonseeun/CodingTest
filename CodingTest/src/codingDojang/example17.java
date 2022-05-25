@@ -30,10 +30,7 @@ public class example17 {
 			System.out.println("false");
 		}else {
 			System.out.println("true");
-		}
-		
-		
-		
+		}		
 	}
 
 }
