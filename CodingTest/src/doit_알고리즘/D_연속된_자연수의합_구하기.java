@@ -10,5 +10,11 @@ public class D_연속된_자연수의합_구하기 {
 		int start_index = 1;
 		int end_index = 1;
 		int sum = 1;
+		
+		while (end_index!=N) {
+			if(sum==N) {
+				count++; end_index++; sum+= end_index;
+			}
+		}
 	}
 }
