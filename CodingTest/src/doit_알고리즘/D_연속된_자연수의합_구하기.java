@@ -14,10 +14,13 @@ public class D_연속된_자연수의합_구하기 {
 		while (end_index != N) {
 			if(sum == N) {
 				count++; end_index++; sum+= end_index;
-			}else if(sum > N) {
+			} else if (sum > N) {
 				sum-= start_index;
 				start_index++;
+			} else {
+				end_index++; sum+= end_index;
 			}
 		}
+		System.out.println(count);
 	}
 }
