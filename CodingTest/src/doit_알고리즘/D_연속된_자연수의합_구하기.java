@@ -11,9 +11,12 @@ public class D_연속된_자연수의합_구하기 {
 		int end_index = 1;
 		int sum = 1;
 		
-		while (end_index!=N) {
-			if(sum==N) {
+		while (end_index != N) {
+			if(sum == N) {
 				count++; end_index++; sum+= end_index;
+			}else if(sum > N) {
+				sum-= start_index;
+				start_index++;
 			}
 		}
 	}
