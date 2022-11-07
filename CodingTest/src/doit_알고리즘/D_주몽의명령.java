@@ -37,5 +37,6 @@ public class D_주몽의명령 {
 				i++; j--;
 			}
 		}
+		 System.out.println(count);
 	}
 }
