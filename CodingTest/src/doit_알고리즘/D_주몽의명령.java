@@ -26,6 +26,16 @@ public class D_주몽의명령 {
 		 int count = 0;
 		 int i = 0; // A[0] -> Min
 		 int j = N-1; //A[N-1] -> Max
-		 
+		 while (i<j) {
+			if (A[i]+A[j] < M) 
+				i++;	
+			else if 
+				(A[i]+A[j] > M )
+				j--;
+			else {
+				count++;
+				i++; j--;
+			}
+		}
 	}
 }
