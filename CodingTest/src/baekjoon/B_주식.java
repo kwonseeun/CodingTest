@@ -1,5 +1,10 @@
 package baekjoon;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
 public class B_주식 {
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -17,7 +22,13 @@ public class B_주식 {
 				sto[i]=Integer.parseInt(st.nextToken());
 			}
 			
-			
+			for (int i = 1; i <= cnt; i++) {
+				if(sto[cnt-i]>max) {
+					max = sto[cnt-i];
+				}else {
+					ans+=(max-sto[cnt-i]);
+				}
+			}
 			sb.append(ans+"\n");
 		}
 		System.out.println(sb);
