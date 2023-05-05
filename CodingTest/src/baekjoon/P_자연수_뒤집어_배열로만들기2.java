@@ -9,6 +9,7 @@ public class P_자연수_뒤집어_배열로만들기2 {
 
 	      int[] answer = new int[ss.length];
 	      for (int i=0; i<ss.length; i++) {
+	    	  
 	          answer[i] = Integer.parseInt(ss[i]);
 	      }
 	      return answer;
