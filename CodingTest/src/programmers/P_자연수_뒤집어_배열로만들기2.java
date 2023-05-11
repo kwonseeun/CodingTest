@@ -1,4 +1,4 @@
-package baekjoon;
+package programmers;
 
 public class P_자연수_뒤집어_배열로만들기2 {
 	public int[] solution(long n) {

@@ -1,4 +1,4 @@
-package baekjoon;
+package programmers;
 
 public class P_이상한_문자_만들기 {
 	 public String solution(String s) {

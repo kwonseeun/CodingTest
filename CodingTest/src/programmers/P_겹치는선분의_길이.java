@@ -1,4 +1,4 @@
-package baekjoon;
+package programmers;
 
 public class P_겹치는선분의_길이 {
 	 public int solution(int[][] lines) {

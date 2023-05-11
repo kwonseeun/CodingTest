@@ -1,4 +1,4 @@
-package baekjoon;
+package programmers;
 
 public class P_쿠키구입 {
 	 public int solution(int[] cookie) {

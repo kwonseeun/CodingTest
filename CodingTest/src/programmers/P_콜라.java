@@ -1,4 +1,4 @@
-package baekjoon;
+package programmers;
 
 public class P_콜라 {
 	public int solution(int a, int b, int n){
