@@ -1,5 +1,7 @@
 package Array_배열;
 
+import java.util.Scanner;
+
 public class 소수_에라토스테네스_체 {
 	public int solution(int n) {
 		
@@ -13,10 +15,16 @@ public class 소수_에라토스테네스_체 {
 				for (int j = 0; j < n; j++) {
 					ch[j]=1;
 				}
-
 			}
 		}
 		
-		return 0;
+		return answer;
+	}
+	
+	public static void main(String[] args) {
+		소수_에라토스테네스_체 T = new 소수_에라토스테네스_체();
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		System.out.println(T.solution(n));
 	}
 }
