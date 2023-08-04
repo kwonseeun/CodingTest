@@ -4,7 +4,6 @@ public class P_체육복 {
 	public int solution(int n, int[] lost, int[] reserve) {
         int answer = 0;
         answer = n;
- 
         for(int i = 0; i < lost.length; i++) {
             boolean rent = false;
             int j = 0;
