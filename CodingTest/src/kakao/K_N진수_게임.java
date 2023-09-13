@@ -17,7 +17,7 @@ public class K_N진수_게임 {
 	                if(retVal.length() == t) {
 	                    break;
 	                }
-	            }
+	            } 
 	            if(curTurn == m) {
 	                curTurn = 0;
 	            }
