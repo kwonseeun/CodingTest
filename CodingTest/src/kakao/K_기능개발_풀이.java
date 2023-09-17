@@ -1,5 +1,8 @@
 package kakao;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class K_기능개발_풀이 {
 	   public int[] solution(int[] progresses, int[] speeds) {
 	        List<Integer> answer = new ArrayList<Integer>();
