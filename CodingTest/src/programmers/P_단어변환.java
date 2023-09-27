@@ -1,5 +1,8 @@
 package programmers;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class P_단어변환 {
 	class Solution {
 	    public class Word{
@@ -53,4 +56,5 @@ public class P_단어변환 {
 	        // 다돌았는데 탈출 못했으면 0
 	        return 0;
 	    }
+	}
 }
