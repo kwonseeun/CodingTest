@@ -1,6 +1,6 @@
 package codility;
 
-public class C_countDive {
+public class C_countDiv {
 	public int solution(int A, int B, int K) {
 		int init = 0;
 		for (int i = A; i <= B; i++) {
