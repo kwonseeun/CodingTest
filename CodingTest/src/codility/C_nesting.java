@@ -25,5 +25,5 @@ public class C_nesting {
 	        }
 
 	        return front+back == 0 ? 1 : 0;
-	 }
+	 } 
 }
