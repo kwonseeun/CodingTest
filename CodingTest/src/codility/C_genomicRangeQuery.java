@@ -1,5 +1,8 @@
 package codility;
 
+import java.util.ArrayDeque;
+import java.util.Queue;
+
 public class C_genomicRangeQuery {
 	 public int solution(String s) {
 	        Queue<Character> queue = new ArrayDeque<>();
