@@ -23,7 +23,7 @@ public class B_문자열 {
 	                front++;
 	            }
 	        } 
-
+ 
 	        return front+back == 0 ? 1 : 0;
 	 }
 }
