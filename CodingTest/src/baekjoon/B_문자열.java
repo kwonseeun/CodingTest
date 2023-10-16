@@ -22,7 +22,7 @@ public class B_문자열 {
 	                queue.poll();
 	                front++;
 	            }
-	        }
+	        } 
 
 	        return front+back == 0 ? 1 : 0;
 	 }
