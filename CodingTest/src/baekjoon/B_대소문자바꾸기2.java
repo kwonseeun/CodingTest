@@ -15,7 +15,7 @@ public class B_대소문자바꾸기2 {
             if('a' <= ch && ch <= 'z') charArray[i] = Character.toUpperCase(ch);
             else charArray[i] =Character.toLowerCase(ch);            
         }
-        
+         
         System.out.println(charArray);
     }
 }
