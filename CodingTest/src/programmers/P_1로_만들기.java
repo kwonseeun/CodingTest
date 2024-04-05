@@ -1,0 +1,22 @@
+package programmers;
+
+public class P_1로_만들기 {
+	public int solution(int[] num_list) {
+        int answer = 0;
+        for (int num : num_list)
+            answer += getCount(num);
+        return answer;
+    }
+    
+    public int getCount(int num) {
+        int result = 0;
+        while (num > 1) {
+            if (num % 2 == 0)
+                num = num / 2;
+            else 
+                num = (num - 1) / 2;
+            result++;
+        }
+        return result;
+    }
+}
