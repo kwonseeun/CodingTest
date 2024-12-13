@@ -2,7 +2,7 @@ package kakao;
 
 import java.util.Stack;
 
-public class P_크레인인형뽑기 {
+public class K_크레인인형뽑기 {
 	public static int solution(int[][] board, int[] moves) {
         int answer = 0;
 
